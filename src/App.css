@@ -283,7 +283,8 @@ footer {
 	background-color: #000000;
 	background-image: linear-gradient(147deg, #000000 0%, #434343 74%);
 	height: 50px; 
-	padding: 1rem 0; 
+	padding-top: 1rem; 
+	padding-bottom: 4rem;
 } 
 
 .contact-container {
