@@ -31,7 +31,7 @@ function Projects() {
               <img alt="thumb" src={movie} />
               <div className="img-caption">
                 <span className="text-center">Movie App</span>
-                <a href="https://iab.netlify.app" target="_blank">
+                <a href="https://upbeat-murdock-5265e3.netlify.app" target="_blank">
                   <button className="btn-view">View Website</button>
                 </a>
               </div>
