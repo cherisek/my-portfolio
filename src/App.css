@@ -181,10 +181,12 @@ h2 {
 	margin-bottom: 3rem; 
 }
 
+
 .list {
 	display: block;
 	list-style-type: circle;
 	margin-bottom: 3rem;
+	cursor: default;
 }
 
 
@@ -226,6 +228,7 @@ h2 {
 
 h3 {
 	text-align: center;
+	cursor: default;
 }
 
 
