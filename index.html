@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+  <html lang="eng">
+    <meta charset="=UTF-8" /> 
+    <meta name="viewport" content="width=device-width, inital-scale-1.0" /> 
+    <title>Cherise K Portfolio Website</title> 
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/normalize/7.0.0/normalize.min.css" /> 
+    <link rel="stylesheet" 
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.11.2/css/all.css" integrity="sha256-46qynGAkLSFpVbEBog43gvNhfrOj+BmwXdxFgVK/Kvc=" crossorigin="anonymous" /> 
+    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400;600&family=Roboto:wght@300;400;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="css/style.css" />
+    <body>
+      <header>
+        <div class="logo">
+          <a href="index.html">
+            <img src="img/ck_logo.png" alt=""/>
+          </a>
+        </div>
+        <button class="nav-toggle" aria-label="toggle navigation">
+          <span class="hamburger"></span>
+        </button>
+        <nav class="nav">
+          <ul class="nav__list">
+            <li class="nav-item"><a href="#home" class="nav__link">Home</a></li> 
+            <li class="nav-item"><a href="#services" class="nav__link">My Services</a></li> 
+            <li class="nav-item"><a href="#about" class="nav__link">About Me</a></li> 
+            <li class="nav-item"><a href="#work" class="nav__link">My Work</a></li> 
+          </ul>
+        </nav> 
+      </header>
+
+      <!--Introduction-->
+      <section class="intro" id="home">
+        <h1 class="section__title section__title--intro">
+            Hi, I am <strong>Cherise Knox</strong>
+        </h1>
+        <p class="section__subtitle section__subtitle--intro">Font-end Developer</p>
+        <img src="img/devcherise.png" alt="cherise looking away" class="intro__img">
+    </section>
+
+      <!--My Services-->
+      <section class="my-services" id="services">
+        <h2 class="section__title section__title--services">
+          What I Do
+        </h2>
+        <div class="services">
+          <div class="service">
+            <h3>Development</h3>
+            <p>
+              I have had 2.5 years in experience with front end web development. 
+              I have used tools such as HTML, CSS/Sass, Javascript, React in order to build different
+              applications. 
+            </p>
+          </div> 
+
+          <div class="service">
+            <h3>Web Design</h3>
+            <p>
+              Still new to design in building out wireframes and prototypes, but I aim to have an easy and smooth user frindly site. 
+              When designing, the goal is to always allow the user to have a pleasant and user friendly experience.
+            </p>
+          </div> 
+        </div>
+        <a href="#work" class="btn">My Work</a>
+      </section> 
+
+      <!--About Me-->
+      <section class="about-me" id="about">
+        <h2 class="section__title section__title--about">Who I am</h2>
+        <p class="section__subtitle section__subtitle--about"></p>
+      <div class="about-me__body">
+        <p>
+          Coming from a marketing backrgound and switching into web development has been one of the most 
+          rewarding choices I have made. I have found one of my passions in creating. There is never a dull
+          moment with web development. I am always trying to learn something new, listen to design podcast, read articles, and
+          learn from other developers. 
+        </p>
+        <p>
+          When I am not coding, I enjoy traveling, shopping, working out, reading, and spending time with my goldendoodle. My new 
+          hobby I have picked up is sewing. I love taking advantage of opportunties in being creative. 
+        </p>
+      </div> 
+
+        <img src="img/dev-cherise-01.jpg" alt="cherise smiling" class="about-me__img" />
+      </section> 
+
+      <!--My Work--> 
+      <section class="my-work" id="work">
+        <h2 class="secion__title section__title--work">My Work</h2>
+        <p class="section__subtitle section__subtitle--work">A selection of my range of work</p>
+
+        <div class="portfolio">
+          <a href="portfolio-item-iab.html" class="portfolio__item">
+            <img src="img/portfolio-iab.png" alt="" class="portfolio__img" />
+            <div class="portfolio__img--overlay">
+              <div class="portfolio__img--overlay--text">IAB App Website</div>
+            </div>
+          </a> 
+          <a class="portfolio__item">
+            <img src="img/portfolio-verity.png" alt="" class="portfolio__img" />
+            <div class="portfolio__img--overlay">
+              <div class="portfolio__img--overlay--text">Sketch Wireframe</div>
+            </div>
+          </a>
+          <a href="portfolio-item-cocktail.html" class="portfolio__item">
+            <img src="img/portfolio-cocktails.png" alt="" class="portfolio__img" />
+            <div class="portfolio__img--overlay">
+              <div class="portfolio__img--overlay--text">Cocktails Website</div>
+            </div>
+          </a>
+        </div>
+      </section> 
+
+      <!--Footer--> 
+      <footer class="footer">
+        <a href="mailto:cheriseknox@gmail.com" class="footer__link">cheriseknox@gmail.com</a> 
+        <ul class="social-list">
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://www.linkedin.com/in/cherise-knox">
+              <i class="fab fa-linkedin-in"></i>
+            </a>
+          </li>
+          <li class="social-list__item">
+            <a class="social-list__link" href="https://github.com/cherisek">
+              <i class="fab fa-github"></i>
+            </a>
+          </li>
+        </ul>
+      </footer>
+      <script src="js/index.js"></script>
+    </body>
+  </html>
